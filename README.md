@@ -8,7 +8,7 @@ It draws a fixed frame box, crosshair lines coming in from the screen edges, and
 
 ## Download
 
-1. **[Download ComfortOverlay.exe](https://github.com/ddswb2/comfort-overlay/releases/latest/download/ComfortOverlay.exe)** (or browse the [Releases](https://github.com/ddswb2/comfort-overlay/releases) page).
+1. **[Download ComfortOverlay.exe](https://github.com/vlietio/comfort-overlay/releases/latest/download/ComfortOverlay.exe)** (or browse the [Releases](https://github.com/vlietio/comfort-overlay/releases) page).
 2. Double-click it. A crosshair icon appears in the system tray.
 
 That's it. There's nothing to install, it's a single 23 KB file, and it runs on Windows 10 and 11.
@@ -52,7 +52,7 @@ The overlay is an ordinary always-on-top window. It never touches the game's pro
 You don't need Visual Studio. Windows already includes the C# compiler that's part of .NET Framework.
 
 ```bat
-git clone https://github.com/ddswb2/comfort-overlay.git
+git clone https://github.com/vlietio/comfort-overlay.git
 cd comfort-overlay
 source\build.cmd
 ```
