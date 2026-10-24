@@ -8,7 +8,7 @@ It draws a fixed frame box, crosshair lines coming in from the screen edges, and
 
 ## Download
 
-1. Grab `Comfort Overlay.exe` from the [Releases](../../releases) page.
+1. **[Download ComfortOverlay.exe](https://github.com/ddswb2/comfort-overlay/releases/latest/download/ComfortOverlay.exe)** (or browse the [Releases](https://github.com/ddswb2/comfort-overlay/releases) page).
 2. Double-click it. A crosshair icon appears in the system tray.
 
 That's it. There's nothing to install, it's a single 23 KB file, and it runs on Windows 10 and 11.
@@ -41,7 +41,7 @@ Settings are saved automatically to `%APPDATA%\ComfortOverlay\settings.ini`.
 
 ### Start with Windows
 
-Press `Win + R`, type `shell:startup`, and put a shortcut to `Comfort Overlay.exe` in the folder that opens.
+Press `Win + R`, type `shell:startup`, and put a shortcut to `ComfortOverlay.exe` in the folder that opens.
 
 ## Anti-cheat
 
@@ -52,7 +52,7 @@ The overlay is an ordinary always-on-top window. It never touches the game's pro
 You don't need Visual Studio. Windows already includes the C# compiler that's part of .NET Framework.
 
 ```bat
-git clone <this repo>
+git clone https://github.com/ddswb2/comfort-overlay.git
 cd comfort-overlay
 source\build.cmd
 ```
